@@ -1,0 +1,10 @@
+﻿order_id,customer_name,email,order_date,product,quantity,currency_original,unit_price_original,unit_price_usd,line_total_usd,country,source_file
+1001,John Smith,john.smith@example.com,2024-01-05,Wireless Mouse,2,USD,19.99,19.99,39.98,United States,sales_region_us.csv
+2001,Müller GmbH,info@mueller.de,2024-01-05,Wireless Mouse,4,EUR,19.99,21.59,86.36,Germany,sales_region_eu.csv
+3001,Tanaka Co.,tanaka@example.jp,2024-01-05,Wireless Mouse,3,JPY,2980.0,19.97,59.91,Japan,sales_region_apac.csv
+2002,Dupont SARL,contact@dupont.fr,2024-01-06,USB-C Cable,20,EUR,8.5,9.18,183.6,France,sales_region_eu.csv
+3002,Lee Trading,lee@example.kr,2024-01-06,USB-C Cable,15,KRW,1200.0,0.9,13.5,Korea,sales_region_apac.csv
+2003,Rossi SPA,rossi@example.it,2024-01-07,Laptop Stand,2,EUR,1299.0,1402.92,2805.84,Italy,sales_region_eu.csv
+3003,Sharma Pvt Ltd,sharma@example.in,2024-01-07,Laptop Stand,1,INR,99000.0,1188.0,1188.0,India,sales_region_apac.csv
+1007,Globex Inc,sales@globex.com,2024-01-11,"HDMI Adapter, 4K",5,USD,12.0,12.0,60.0,United States,sales_region_us.csv
+1002,Acme Corp.,billing@acme.co,2024-06-01,USB-C Cable,10,USD,8.5,8.5,85.0,United States,sales_region_us.csv

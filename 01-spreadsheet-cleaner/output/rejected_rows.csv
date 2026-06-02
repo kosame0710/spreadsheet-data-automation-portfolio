@@ -1,0 +1,11 @@
+﻿order_id,customer_name,email,order_date,product,quantity,currency_original,unit_price_original,unit_price_usd,line_total_usd,country,source_file,_reject_reasons
+3004,Wong Ltd,,2024-01-08,Keyboard,2.0,HKD,3500.0,448.0,896.0,Hong Kong,sales_region_apac.csv,missing email
+3005,Tan Enterprises,tan@example.sg,,Monitor,2.0,SGD,45000.0,33300.0,66600.0,Singapore,sales_region_apac.csv,unparseable date
+3007,Nguyen JSC,nguyen@example.vn,2024-01-12,Webcam,4.0,VND,,,,Vietnam,sales_region_apac.csv,invalid unit_price
+2004,García S.L.,garcia@example.es,2024-01-08,Keyboard,,EUR,45.0,48.6,,Spain,sales_region_eu.csv,invalid quantity
+2005,,invalid-email,2024-01-09,Monitor,3.0,EUR,1500.0,1620.0,4860.0,Netherlands,sales_region_eu.csv,missing customer_name; invalid email
+2006,Nordic AB,hej@nordic.se,2024-01-10,Webcam,,EUR,49.0,52.92,,Sweden,sales_region_eu.csv,invalid quantity
+1003,jane doe,jane@@example.com,2024-01-07,Laptop Stand,1.0,USD,1299.0,1299.0,1299.0,United States,sales_region_us.csv,invalid email
+1004,,no-reply@example.com,2024-01-08,Keyboard,-1.0,USD,45.0,45.0,-45.0,United States,sales_region_us.csv,missing customer_name; quantity below minimum
+1005,Beta LLC,beta@example,2024-01-09,Monitor,3.0,USD,1500.0,1500.0,4500.0,United States,sales_region_us.csv,invalid email
+1006,,carol@example.com,,Webcam,0.0,USD,0.0,0.0,0.0,United States,sales_region_us.csv,missing customer_name; missing date; quantity below minimum

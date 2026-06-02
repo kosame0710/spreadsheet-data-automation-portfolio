@@ -1,0 +1,8 @@
+OrderID,Client,Contact Email,Purchased On,SKU / Product,Units,Amount (per unit),Region
+3001,Tanaka Co.,tanaka@example.jp,2024-01-05,Wireless Mouse,3,2980,Japan
+3002,Lee Trading,lee@example.kr,2024-01-06,USB-C Cable,15,1200,Korea
+3003,Sharma Pvt Ltd,sharma@example.in,2024-01-07,Laptop Stand,1,99000,India
+3004,Wong Ltd,,2024-01-08,Keyboard,2,3500,Hong Kong
+3005,Tan Enterprises,tan@example.sg,2024-13-45,Monitor,2,45000,Singapore
+3006,Tanaka Co.,TANAKA@EXAMPLE.JP,05/01/2024,Wireless Mouse,3,2980,Japan
+3007,Nguyen JSC,nguyen@example.vn,2024-01-12,Webcam,4,impossible,Vietnam

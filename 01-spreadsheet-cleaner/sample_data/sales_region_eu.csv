@@ -1,0 +1,8 @@
+order_id;customer;e-mail;date;item;quantity;price;country
+2001;Müller GmbH;info@mueller.de;05.01.2024;Wireless Mouse;4;"19,99 €";Germany
+2002;Dupont SARL;contact@dupont.fr;06/01/2024;USB-C Cable;20;"8,50€";France
+2003;  Rossi SPA  ;ROSSI@example.IT;07.01.2024;Laptop Stand;2;"1.299,00 €";Italy
+2004;García S.L.;garcia@example.es;08-01-2024;Keyboard;abc;45,00;Spain
+2002;Dupont SARL;contact@dupont.fr;06/01/2024;USB-C Cable;20;8,50€;France
+2005;;invalid-email;09.01.2024;Monitor;3;"1.500,00€";Netherlands
+2006;Nordic AB;hej@nordic.se;10.01.2024;Webcam;;"49,00 €";Sweden

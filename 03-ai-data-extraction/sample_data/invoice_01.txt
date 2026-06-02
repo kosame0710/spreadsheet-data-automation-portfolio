@@ -1,0 +1,18 @@
+ACME SUPPLIES LLC
+123 Market Street, Springfield
+
+Invoice #: INV-2024-0481
+Date: March 5, 2024
+From: Acme Supplies LLC
+
+Items:
+2 x Wireless Mouse @ $19.99
+10 x USB-C Cable @ $8.50
+1 x Laptop Stand @ $1,299.00
+
+Subtotal: 1424.98
+Tax (8%): 113.99
+Total: 1538.97
+Currency: USD
+
+Thank you for your business.

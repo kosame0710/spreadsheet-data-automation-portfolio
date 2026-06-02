@@ -1,0 +1,55 @@
+{
+  "extracted": [
+    {
+      "invoice_number": "INV-2024-0481",
+      "invoice_date": "2024-03-05",
+      "vendor": "Acme Supplies LLC",
+      "currency": "USD",
+      "total": 1538.97,
+      "line_items": [
+        {
+          "description": "Wireless Mouse",
+          "quantity": 2.0,
+          "unit_price": 19.99
+        },
+        {
+          "description": "USB-C Cable",
+          "quantity": 10.0,
+          "unit_price": 8.5
+        },
+        {
+          "description": "Laptop Stand",
+          "quantity": 1.0,
+          "unit_price": 1299.0
+        }
+      ],
+      "_source_file": "invoice_01.txt"
+    },
+    {
+      "invoice_number": "GLX-99213",
+      "invoice_date": "2024-02-18",
+      "vendor": "Globex International",
+      "currency": "USD",
+      "total": 281.0,
+      "line_items": [
+        {
+          "description": "HDMI Adapter 4K",
+          "quantity": 3.0,
+          "unit_price": 12.0
+        },
+        {
+          "description": "Webcam",
+          "quantity": 5.0,
+          "unit_price": 49.0
+        }
+      ],
+      "_source_file": "invoice_02.txt"
+    }
+  ],
+  "failed": [
+    {
+      "_source_file": "invoice_03_incomplete.txt",
+      "error": "$.invoice_number: required field is missing/null"
+    }
+  ]
+}

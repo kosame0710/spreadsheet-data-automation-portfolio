@@ -1,0 +1,15 @@
+Hi there,
+
+Please find the invoice details below for last month's order.
+
+Vendor: Globex International
+Invoice # GLX-99213
+Date: 2024-02-18
+
+3 x HDMI Adapter 4K @ $12.00
+5 x Webcam @ $49.00
+
+The total amount due is 281.00 USD, payable within 30 days.
+
+Best regards,
+Accounts Receivable

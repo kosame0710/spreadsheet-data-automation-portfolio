@@ -1,0 +1,6 @@
+﻿name,price,currency,in_stock,rating,url
+Wireless Mouse,19.99,USD,True,4.5,/p/wireless-mouse
+USB-C Cable,8.5,USD,True,4.2,/p/usb-c-cable
+Laptop Stand,1299.0,USD,False,4.8,/p/laptop-stand
+Mechanical Keyboard,,USD,True,,/p/keyboard
+4K Monitor,349.0,USD,True,4.6,/p/monitor

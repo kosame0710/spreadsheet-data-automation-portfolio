@@ -1,0 +1,31 @@
+================================================================
+ SPREADSHEET CLEANER — RUN REPORT
+================================================================
+ Source files merged : sales_region_apac.csv, sales_region_eu.csv, sales_region_us.csv
+ Rows read (raw)     : 22
+ Rows clean          : 9
+ Rows rejected       : 10
+ Duplicates removed  : 3
+ Issues logged       : 17
+ Total revenue (USD) : 4,522.19
+----------------------------------------------------------------
+ Issue log (data quality problems found and how they were handled):
+----------------------------------------------------------------
+  1. [sales_region_apac.csv] order 3004 / email: missing email -> rejected
+  2. [sales_region_apac.csv] order 3005 / order_date: unparseable date '2024-13-45' -> rejected
+  3. [sales_region_apac.csv] order 3007 / unit_price: unparseable amount 'impossible' -> rejected
+  4. [sales_region_eu.csv] order 2004 / quantity: non-numeric quantity 'abc' -> rejected
+  5. [sales_region_eu.csv] order 2005 / customer_name: missing customer name -> flagged
+  6. [sales_region_eu.csv] order 2005 / email: invalid email 'invalid-email' -> rejected
+  7. [sales_region_eu.csv] order 2006 / quantity: non-numeric quantity '' -> rejected
+  8. [sales_region_us.csv] order 1003 / email: invalid email 'jane@@example.com' -> rejected
+  9. [sales_region_us.csv] order 1004 / customer_name: missing customer name -> flagged
+ 10. [sales_region_us.csv] order 1004 / quantity: quantity -1 below minimum 1 -> rejected
+ 11. [sales_region_us.csv] order 1005 / email: invalid email 'beta@example' -> rejected
+ 12. [sales_region_us.csv] order 1006 / customer_name: missing customer name -> flagged
+ 13. [sales_region_us.csv] order 1006 / order_date: missing date -> rejected
+ 14. [sales_region_us.csv] order 1006 / quantity: quantity 0 below minimum 1 -> rejected
+ 15. [sales_region_apac.csv] order 3006 / (row): duplicate order -> removed (kept first occurrence)
+ 16. [sales_region_eu.csv] order 2002 / (row): duplicate order -> removed (kept first occurrence)
+ 17. [sales_region_us.csv] order 1001 / (row): duplicate order -> removed (kept first occurrence)
+================================================================

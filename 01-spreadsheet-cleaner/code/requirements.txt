@@ -1,0 +1,5 @@
+# Flagship demo dependencies (pinned to the versions it was verified against).
+# The core logic uses only the Python standard library; pandas/openpyxl are used
+# for convenient data handling and formatted Excel output.
+pandas==2.3.0
+openpyxl==3.1.5

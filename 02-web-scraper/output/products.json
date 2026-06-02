@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Wireless Mouse",
+    "price": 19.99,
+    "currency": "USD",
+    "in_stock": true,
+    "rating": 4.5,
+    "url": "/p/wireless-mouse"
+  },
+  {
+    "name": "USB-C Cable",
+    "price": 8.5,
+    "currency": "USD",
+    "in_stock": true,
+    "rating": 4.2,
+    "url": "/p/usb-c-cable"
+  },
+  {
+    "name": "Laptop Stand",
+    "price": 1299.0,
+    "currency": "USD",
+    "in_stock": false,
+    "rating": 4.8,
+    "url": "/p/laptop-stand"
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "price": null,
+    "currency": "USD",
+    "in_stock": true,
+    "rating": null,
+    "url": "/p/keyboard"
+  },
+  {
+    "name": "4K Monitor",
+    "price": 349.0,
+    "currency": "USD",
+    "in_stock": true,
+    "rating": 4.6,
+    "url": "/p/monitor"
+  }
+]
