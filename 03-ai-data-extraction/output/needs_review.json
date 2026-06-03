@@ -1,0 +1,37 @@
+[
+  {
+    "invoice_number": "GLX-99213",
+    "invoice_date": "2024-02-18",
+    "vendor": "Globex International",
+    "currency": "USD",
+    "total": 329.0,
+    "line_items": [
+      {
+        "description": "HDMI Adapter 4K",
+        "quantity": 3.0,
+        "unit_price": 12.0
+      },
+      {
+        "description": "Webcam",
+        "quantity": 5.0,
+        "unit_price": 49.0
+      }
+    ],
+    "_source_file": "invoice_02.txt",
+    "confidence": 0.837,
+    "field_confidence": {
+      "invoice_number": 1.0,
+      "invoice_date": 1.0,
+      "vendor": 0.95,
+      "currency": 1.0,
+      "total": 0.3,
+      "line_items": 1.0
+    },
+    "needs_review": true,
+    "review_reasons": [
+      "low-confidence field(s): total",
+      "total 329.0 does not reconcile with line-item sum 281.0",
+      "overall confidence 0.837 below review threshold 0.85"
+    ]
+  }
+]

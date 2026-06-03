@@ -1,4 +1,11 @@
 {
+  "summary": {
+    "extracted": 2,
+    "needs_review": 1,
+    "auto_approved": 1,
+    "failed": 1,
+    "review_threshold": 0.85
+  },
   "extracted": [
     {
       "invoice_number": "INV-2024-0481",
@@ -23,14 +30,25 @@
           "unit_price": 1299.0
         }
       ],
-      "_source_file": "invoice_01.txt"
+      "_source_file": "invoice_01.txt",
+      "confidence": 0.993,
+      "field_confidence": {
+        "invoice_number": 1.0,
+        "invoice_date": 1.0,
+        "vendor": 0.95,
+        "currency": 1.0,
+        "total": 1.0,
+        "line_items": 1.0
+      },
+      "needs_review": false,
+      "review_reasons": []
     },
     {
       "invoice_number": "GLX-99213",
       "invoice_date": "2024-02-18",
       "vendor": "Globex International",
       "currency": "USD",
-      "total": 281.0,
+      "total": 329.0,
       "line_items": [
         {
           "description": "HDMI Adapter 4K",
@@ -43,7 +61,59 @@
           "unit_price": 49.0
         }
       ],
-      "_source_file": "invoice_02.txt"
+      "_source_file": "invoice_02.txt",
+      "confidence": 0.837,
+      "field_confidence": {
+        "invoice_number": 1.0,
+        "invoice_date": 1.0,
+        "vendor": 0.95,
+        "currency": 1.0,
+        "total": 0.3,
+        "line_items": 1.0
+      },
+      "needs_review": true,
+      "review_reasons": [
+        "low-confidence field(s): total",
+        "total 329.0 does not reconcile with line-item sum 281.0",
+        "overall confidence 0.837 below review threshold 0.85"
+      ]
+    }
+  ],
+  "needs_review": [
+    {
+      "invoice_number": "GLX-99213",
+      "invoice_date": "2024-02-18",
+      "vendor": "Globex International",
+      "currency": "USD",
+      "total": 329.0,
+      "line_items": [
+        {
+          "description": "HDMI Adapter 4K",
+          "quantity": 3.0,
+          "unit_price": 12.0
+        },
+        {
+          "description": "Webcam",
+          "quantity": 5.0,
+          "unit_price": 49.0
+        }
+      ],
+      "_source_file": "invoice_02.txt",
+      "confidence": 0.837,
+      "field_confidence": {
+        "invoice_number": 1.0,
+        "invoice_date": 1.0,
+        "vendor": 0.95,
+        "currency": 1.0,
+        "total": 0.3,
+        "line_items": 1.0
+      },
+      "needs_review": true,
+      "review_reasons": [
+        "low-confidence field(s): total",
+        "total 329.0 does not reconcile with line-item sum 281.0",
+        "overall confidence 0.837 below review threshold 0.85"
+      ]
     }
   ],
   "failed": [
